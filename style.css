@@ -3,7 +3,7 @@ img{
     z-index:  1;
     height: 60%;
     width: 50%;
-    backdrop-filter: blur( 5.5px );
+    backdrop-filter: blur( 1.5px );
 }
 a{
     text-decoration: none;
