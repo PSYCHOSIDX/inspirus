@@ -63,6 +63,11 @@ nav ul li a:hover{
 
 /*nav end*/
 
+
+
+
+
+
 img{
     z-index:  1;
     height: 60%;
@@ -89,6 +94,7 @@ body{
     flex-direction: row;
     padding-top: 10%;
 }
+
 
 
 .event-card{
@@ -122,8 +128,8 @@ body{
     padding: 2rem ;
     border-radius: 1rem;
     background: #00be9f;
-    box-shadow:  4px -4px 10px #0ab498,
-                 -4px 4px 10px #0a9b57;
+    box-shadow:  2px -2px 7px #0ab498,
+                 -2px 2px 7px #0a9b57;
 
 
 }
@@ -143,8 +149,8 @@ body{
     padding: 2rem;
     border-radius: 1rem;
     background: #228aec;
-    box-shadow:  4px -4px 10px #1f93d7,
-                 -4px 4px 10px #10419b;
+    box-shadow:  2px -2px 7px #1f93d7,
+                 -2px 2px 7px #10419b;
     
 }
 .page-link:hover{
@@ -233,3 +239,129 @@ body{
     }
 
 }
+
+
+
+/*Time line*/
+
+
+.eventx{
+    padding-top: 10%;
+    width: 44%;
+    margin: auto;
+  color: white;
+}
+
+.timeline {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .event-cardx{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    z-index:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5rem;
+    border-radius: 1rem;
+
+    backdrop-filter: blur(1.2rem) saturate(200%);
+           -webkit-backdrop-filter: blur(1.2rem) saturate(200%);
+           background-color: rgba(255, 255, 255, 0.45);
+           border-bottom: .1rem solid rgba(255, 255, 255, 0.815);
+           
+    
+}
+  
+  .li {
+    transition: all 200ms ease-in;
+  }
+  
+  .timestamp {
+    margin-bottom: 2rem;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .status {
+    padding: 0rem 2rem ;
+    display: flex;
+    justify-content: center;
+    border-top: .2rem solid #D6DCE0;
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+  .status h4 {
+    font-weight: bold;
+  }
+  .status:before {
+    content: "";
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(17, 0, 116);
+    border-radius: 2.5rem;
+    border: .1rem solid #ddd;
+    position: absolute;
+    top: -1.5rem;
+    left: 42%;
+    transition: all 200ms ease-in;
+  }
+  
+  .li.complete .status {
+    border-top: .2rem solid #ffffff;
+  }
+  .li.complete .status:before {
+    background-color: #002fc9c9;
+    border: .2rem white solid;
+    transition: all 200ms ease-in;
+  }
+  .li.complete .status h4 {
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  @media (min-device-width: 320px) and (max-device-width: 780px) {
+
+    .timeline {
+      list-style-type: none;
+      display: block;
+    }
+  
+    .li {
+      transition: all 200ms ease-in;
+      display: flex;
+      width: inherit;
+    }
+  
+    
+    .status:before {
+      left: -8%;
+      top: 30%;
+      transition: all 200ms ease-in;
+    }
+
+
+
+    .event-cardx{
+        width: 120%;
+        margin: auto;
+        display: flex;
+        z-index:1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 5rem;
+        border-radius: 1rem;
+        
+       
+    }
+  }
+  
+/*end of timeline*/
