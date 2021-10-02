@@ -1,9 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+html{
+font-size: 62.5%; /*  1rem = 10px  */
+
+
+}
+
+
+
+
+/* nav style start*/
+
+.navbar{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+width :20rem;
+padding: 1rem;
+cursor: pointer;
+margin-left: 2rem;
+align-content: center;
+}
+
+.menu-icon{
+    width: 2rem;
+    cursor: pointer;
+    display: none;
+    background: rgba(255, 255, 255, 0.534);
+    border-radius: 9rem;
+    padding: 1.2rem;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+    z-index: 2;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+nav ul li a{
+   color: rgb(255, 255, 255);
+   padding: 2rem 2rem;
+   font-size: 1.7rem;
+}
+
+nav ul li a:hover{
+    color: rgba(43, 43, 43, 0.733);
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: .3rem;
+    margin: 1rem;
+    
+}
+
+
+/*nav end*/
+
 img{
     z-index:  1;
     height: 60%;
-    width: 50%;
-    backdrop-filter: blur( 1.5px );
+    width: 53%;
+    backdrop-filter: blur( .12rem );
 }
 a{
     text-decoration: none;
@@ -25,26 +89,29 @@ body{
     flex-direction: row;
     padding-top: 10%;
 }
+
+
 .event-card{
+
     display: flex;
     z-index:1;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.459);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 2rem;
+    border-radius: 1rem;
+    
+    box-shadow: 0 .8rem 3.2rem 0 rgba(255, 255, 255, 0.74);
+    backdrop-filter: blur( .6rem );
+    -webkit-backdrop-filter: blur( 1rem );
+    border: .1rem solid rgb(255, 255, 255);
 }
 .event-buttons{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+
     margin-top:5%;
-    width: 40%;
+    width: 54%;
     justify-content: space-between;
     font-size: 1.2vw;
     
@@ -52,29 +119,46 @@ body{
 .register-button{
     text-align: center;
     color: white;
-    background-color: rgb(44, 128, 255);
-    padding:10px;
-    border-radius: 20px;
+    padding: 2rem ;
+    border-radius: 1rem;
+    background: #00be9f;
+    box-shadow:  4px -4px 10px #0ab498,
+                 -4px 4px 10px #0a9b57;
+
 
 }
 .register-button:hover{
-    background-color: rgb(0, 86, 214);
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  3px -4px 10px #e8e8e8,
+                 -4px 4px 10px #ffffff;
+                 color: black;
 
+                 font-weight: bold;
 }
 .page-link{
+    
     text-align: center;
     color: white;
-    background-color: rgb(216, 0, 151);
-    padding:10px;
-    border-radius: 20px;
+    
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #228aec;
+    box-shadow:  4px -4px 10px #1f93d7,
+                 -4px 4px 10px #10419b;
+    
 }
 .page-link:hover{
-    background-color: rgb(194, 0, 145);
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  4px -4px 10px #e8e8e8,
+                 -4px 4px 10px #ffffff;
+                 color: black;
+
+                 font-weight: bold;
 
 }
 
 .event-text{
-    
+    font-size: 1.6rem;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
@@ -82,10 +166,46 @@ body{
     width: 100%;
     height: 100%;
 }
-.event-header{
 
-}
+
+/*MOBILE VIEW */
+
 @media (max-width: 900px) {
+    .logo{width: 11rem;}
+    .menu-icon{width: rem;}
+      nav ul{
+           width:100%;
+           backdrop-filter: blur(12px) saturate(200%);
+           -webkit-backdrop-filter: blur(12px) saturate(200%);
+           background-color: rgba(255, 255, 255, 0.45);
+           position: absolute;
+           border-bottom: .1rem solid rgba(255, 255, 255, 0.815);
+           
+           top: 4rem;
+           right :0;
+           z-index: 2;    
+       }
+ 
+ nav ul li{
+      display: block;
+      margin-top:1rem;
+      margin-bottom: .5rem;
+ }
+ nav ul li a{
+      color: white;
+      font-size:1rem;
+ }
+ .menu-icon{
+      display: block;
+      margin-right: 2rem;
+ }
+ 
+ #menuList{
+      overflow: hidden;
+      transition: 0.5s;
+      
+ }
+ 
     img{
         width: 80%;
         height: 80%;
@@ -108,7 +228,7 @@ body{
         width: 55%;
     }
     .register-button,.page-link{
-        padding: 10px;
+        padding: 1rem;
         font-size: 3vw;
     }
 

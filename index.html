@@ -18,6 +18,21 @@
     <div id="particles-js"></div>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+<!-- nav start--> 
+
+<div class="navbar">
+    <img src="images/logo.png" alt="Inspirus 2021" class="logo">
+    <nav> 
+         <ul id=menuList>
+              <li><a href="#"> <b>HOME</b></a></li>
+              <li><a href="#"> <b>REGISTER</b></a></li>
+              <li><a href="#"><b>ABOUT US</b></a></li>
+         </ul>
+    </nav>
+    <img src="images/menu.png" alt="..." class="menu-icon" onclick="togglemenu()">  
+</div>
+
+<!-- nav end-->
     <div class="event" >
         <img  src="images\undraw_videographer_nnc7.svg" alt="">
     <div class="event-card"> 
@@ -46,7 +61,7 @@
         </div>
     </div>
     </div>
-    <div class="event">
+    <div class="event" style="margin-bottom: 4rem;">
         <img  src="images\undraw_photo_session_clqr.svg" alt="">
     <div class="event-card"> 
         <h1>Competition Name</h1>
@@ -59,11 +74,27 @@
         </div>
         
     </div>
+
+    
     </div>
 
 
     <script>
         AOS.init();
-    </script>
+
+        
+     var menuList =document.getElementById("menuList");
+     menuList.style.maxHeight ="0px";
+     function togglemenu(){
+          if(menuList.style.maxHeight =="0px")
+          {
+               menuList.style.maxHeight ="130px";
+          }
+          else{
+               menuList.style.maxHeight ="0px";
+          }
+     }
+</script>
+
 </body>
 </html>
