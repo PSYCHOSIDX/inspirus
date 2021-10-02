@@ -93,12 +93,16 @@ body{
     justify-content: space-around;
     flex-direction: row;
     padding-top: 10%;
+    color: white;
 }
 
 
-
+.event-head{
+    margin: auto;
+    font-weight: bold;
+}
 .event-card{
-
+    color: white;
     display: flex;
     z-index:1;
     flex-direction: row;
@@ -106,7 +110,6 @@ body{
     background-color: rgba(255, 255, 255, 0.76);
     padding: 2rem;
     border-radius: 1rem;
-    
     box-shadow: 0 .8rem 3.2rem 0 rgba(255, 255, 255, 0.74);
     backdrop-filter: blur( .6rem );
     -webkit-backdrop-filter: blur( 1rem );
@@ -115,7 +118,7 @@ body{
 .event-buttons{
     display: flex;
     flex-direction: row;
-
+margin: auto;
     margin-top:5%;
     width: 54%;
     justify-content: space-between;
@@ -166,7 +169,7 @@ body{
 .event-text{
     font-size: 1.6rem;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 95, 95);
 }
 #particles-js{
     width: 100%;
