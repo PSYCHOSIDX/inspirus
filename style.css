@@ -98,18 +98,18 @@ body{
         flex-wrap: wrap;
     }
     .event-text{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
  
     h1{
-        font-size:3vw;
+        font-size:3.7vw;
     }
     .event-buttons{
-        width: 40%;
+        width: 55%;
     }
     .register-button,.page-link{
-        padding: 5px;
-        font-size: 2.5vw;
+        padding: 10px;
+        font-size: 3vw;
     }
 
 }
