@@ -79,7 +79,7 @@ a{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     max-width: 100vw;
     overflow-x: hidden;
     background: black;
@@ -173,6 +173,53 @@ body{
     height: 100%;
 }
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.inspirus-logo{
+    width:30rem;
+}
+.footer iframe{
+    width:50rem;
+    height: 40rem;
+    border-radius: 2rem;
+}
+.dbce-logo{
+    float: left;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.footer-text-left{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-content: flex-start;
+    font-weight: 200;
+    
+    font-size: 2rem;
+}
+.section-header{
+    z-index: 200;
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur( .45rem );
+    color: rgb(36, 250, 239);
+    font-size: 6rem;
+    padding: .02rem;
+    font-weight: 600;
+}
+.section-header hr{
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    border: 1px solid rgb(255, 255, 255);
+}
 
 /*MOBILE VIEW */
 
@@ -247,7 +294,12 @@ body{
         padding: 1rem;
         font-size: 3vw;
     }
-
+    .section-header{
+        font-size: 4rem;
+    }
+    .section-header hr{
+        border: 1px solid rgb(42, 241, 255);
+    }
 }
 
 
