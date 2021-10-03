@@ -287,7 +287,8 @@ body{
     backdrop-filter: blur( .45rem );
     -webkit-backdrop-filter: blur( 0.45rem );
        
-           
+    border: .1rem solid rgba(255, 255, 255, 0.5);
+              
            
     
 }
