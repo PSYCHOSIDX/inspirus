@@ -2,7 +2,8 @@
 
 html{
 font-size: 62.5%; /*  1rem = 10px  */
-overflow: hidden;
+overflow: scroll;
+scroll-behavior: smooth;
 }
 
 
