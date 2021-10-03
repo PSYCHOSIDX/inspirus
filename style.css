@@ -259,8 +259,8 @@ body{
 
 
 .eventx{
-    padding-top: 10%;
-    width: 44%;
+    padding-top: 1rem;
+    width:60%;
     margin: auto;
   color: white;
 }
@@ -337,7 +337,6 @@ body{
   }
   .li.complete .status h4 {
     color: #ffffff;
-    text-align: center;
     padding: 1rem;
   }
   
@@ -370,7 +369,10 @@ body{
         z-index:1;
         flex-direction: row;
         border-radius: 1rem;
-        transform: translateX(-4rem);
+        transform: translateX(-5rem);
+   
+        color: rgb(255, 255, 255);
+
        
     }
   }
