@@ -335,7 +335,7 @@ body{
   }
   .li.complete .status:before {
     background-color:#9F27A8;
-    border: .2rem white solid;
+    border: .05rem white solid;
     transition: all 200ms ease-in;
   }
   .li.complete .status h4 {
