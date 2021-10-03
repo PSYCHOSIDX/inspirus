@@ -21,6 +21,19 @@
     animation: blob 5s linear alternate infinite, gradient 9s ease infinite;
 
   }
+.blob-1{
+    background: linear-gradient(-45deg, #f83838,#ecca2e);
+}
+.blob-2{
+    background: linear-gradient(-45deg, #46eb85,#358fc4);
+}
+.blob-3{
+    background: linear-gradient(-45deg, #c44baf,#2456c4);
+}
+.blob-4{
+    background: linear-gradient(-45deg, #ec51c5,#c43535);
+}
+
 
 .event-svg{
     width: 30rem;
