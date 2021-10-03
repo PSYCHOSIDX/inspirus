@@ -331,7 +331,7 @@ margin: auto;
     padding: 1rem;
   }
   
-  @media (min-device-width: 320px) and (max-device-width: 780px) {
+  @media (min-device-width: 320px) and (max-device-width: 883px) {
 
     .timeline {
       list-style-type: none;
