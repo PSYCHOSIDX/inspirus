@@ -282,10 +282,10 @@ body{
     padding: 5rem;
     border-radius: 1rem;
 
-    backdrop-filter: blur(1.2rem) saturate(180%);
+    backdrop-filter: blur(1rem) saturate(130%);
            -webkit-backdrop-filter: blur(1.2rem) saturate(160%);
            background-color: rgba(255, 255, 255, 0.45);
-           border-bottom: .1rem solid rgba(255, 255, 255, 1);
+           border-bottom: .1rem solid rgba(255, 255, 255, 3);
            
     
 }
