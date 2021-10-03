@@ -331,7 +331,7 @@ body{
     border-top: .2rem solid #ffffff;
   }
   .li.complete .status:before {
-    background-color: #002fc9c9;
+    background-color:#76A5AF;
     border: .2rem white solid;
     transition: all 200ms ease-in;
   }
