@@ -121,7 +121,6 @@ body{
 .event-buttons{
     display: flex;
     flex-direction: row;
-    margin: auto;
     margin-top:5%;
     width: 54%;
     align-items: flex-start;
@@ -133,12 +132,8 @@ body{
     text-align: center;
     color: white;
     padding: 2rem ;
-    border-radius: 1rem;
-    background: #00be9f;
-    box-shadow:  2px -2px 7px #0ab498,
-                 -2px 2px 7px #0a9b57;
-
-
+    border-radius: 2rem;
+    background-color: rgb(172, 38, 172);
 }
 .register-button:hover{
     background: linear-gradient(45deg, #e6e6e6, #ffffff);
@@ -152,11 +147,11 @@ body{
     text-align: center;
     color: white;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     background: #228aec;
-    box-shadow:  2px -2px 7px #1f93d7,
+    /* box-shadow:  2px -2px 7px #1f93d7,
                  -2px 2px 7px #10419b;
-    
+     */
 }
 .page-link:hover{
     background: linear-gradient(45deg, #e6e6e6, #ffffff);
@@ -245,6 +240,8 @@ body{
     }
     .event-buttons{
         width: 55%;
+        margin: auto;
+        margin-top:3rem;
     }
     .register-button,.page-link{
         padding: 1rem;
