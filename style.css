@@ -121,7 +121,6 @@ body{
 .event-buttons{
     display: flex;
     flex-direction: row;
-    margin: auto;
     margin-top:5%;
     width: 54%;
     align-items: flex-start;
@@ -134,7 +133,7 @@ body{
     color: white;
     padding: 2rem ;
     border-radius: 1rem;
-    background: #00be9f;
+    background: #eb40c6;
     /* box-shadow:  2px -2px 7px #0ab498,
                  -2px 2px 7px #0a9b57; */
 
