@@ -282,10 +282,12 @@ body{
     padding: 5rem;
     border-radius: 1rem;
 
+    
     backdrop-filter: blur(.7rem) saturate(130%);
            -webkit-backdrop-filter: blur(.9rem) saturate(190%);
            background-color: rgba(255, 255, 255, 0.479);
            border: .1rem solid  rgb(255, 255, 255);
+           
            
     
 }
