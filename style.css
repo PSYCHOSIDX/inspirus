@@ -273,7 +273,7 @@ body{
   }
 
   .event-cardx{
-    width: 84%;
+    width: 100%;
     margin: auto;
     display: flex;
     z-index:1;
@@ -341,11 +341,12 @@ body{
     padding: 1rem;
   }
   
-  @media (min-device-width: 320px) and (max-device-width: 883px) {
+  @media (min-device-width: 260px) and (max-device-width: 883px) {
 
     .timeline {
       list-style-type: none;
       display: block;
+      margin-left: -6rem;
     }
   
     .li {
@@ -364,13 +365,10 @@ body{
 
 
     .event-cardx{
-        width: 120%;
-        margin: auto;
+        width: 100%;
         display: flex;
         z-index:1;
         flex-direction: row;
-        flex-wrap: wrap;
-        padding: 5rem;
         border-radius: 1rem;
         
        
