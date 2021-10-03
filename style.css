@@ -370,7 +370,7 @@ body{
         z-index:1;
         flex-direction: row;
         border-radius: 1rem;
-        
+        transform: translateX(-4rem);
        
     }
   }
