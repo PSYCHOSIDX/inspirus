@@ -115,24 +115,16 @@ body{
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
-<<<<<<< Updated upstream
-    font-size: 4rem;
-    font-weight:bold;
-=======
     color: rgb(45, 220, 226);
     font-size: 7rem;
     font-weight: bold;
->>>>>>> Stashed changes
     margin-top: 2rem;
 }
 .section-header hr{
     margin: auto;
-<<<<<<< Updated upstream
-=======
     width: 80%;
     padding: 0;
   
->>>>>>> Stashed changes
 }
 
 /*End of Heading*/
