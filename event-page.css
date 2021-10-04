@@ -1,0 +1,36 @@
+body{
+    margin:auto;
+    text-align: center;
+}
+.event-page{
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    z-index:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.089);
+    box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+    backdrop-filter: blur( .45rem );
+    -webkit-backdrop-filter: blur( 0.45rem );
+    font-size:1.8rem;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+.event-page-subtitle{
+    color: rgb(0, 255, 255);
+    font-weight: 600;
+    font-size: 8rem;
+}
+.banner{
+    border-radius: 2rem;
+    
+    margin: auto;
+}
