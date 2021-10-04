@@ -166,7 +166,8 @@ body{
 .event-text{
     font-size: 1.6rem;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color:white;
+padding:.2rem;
 }
 #particles-js{
     width: 100%;
