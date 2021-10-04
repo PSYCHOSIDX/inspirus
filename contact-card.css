@@ -1,41 +1,62 @@
-body{
+
   
 
-}
-  
-  .animate-in {
-    transform: translateY(-500px);
-    transition: 1s;
-  }
   .cards-container{
     margin: auto;
     display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 5rem;
+ 
   }
   .center {
     margin: auto;
   }
   
   .card {
-      color: black;
+    position: relative;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 38rem;
-    min-height: 5rem;
+    width: 25rem;
+    height: 31rem;
+    margin: 2rem;
     background-color: #fff;
-    background: linear-gradient(#7a3db3, rgb(173, 227, 231));
-    padding: 4rem;
-    border-radius: 0.5rem;
+    /* background: linear-gradient(#0f358894, rgba(68, 202, 212, 0.623)); */
+ 
+
+
+
+    backdrop-filter: blur( .25rem );
+    padding: 2rem;
+    border-radius: 2rem;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .sub-header{
+    margin: auto;
+    margin-top: 10rem;
+    width: 100vw;
+    position: relative;
+    font-weight: 800;
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .sub-header hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid white;
+    width: 95%;
   }
   .card img {
     width: 60%;
     border: solid 8px #eaeaea;
+    background: white;
     border-radius: 50%;
     margin: 0 auto;
   }
@@ -62,7 +83,7 @@ body{
   .social-container a {
     margin: 0 0.5rem;
     font-size: 3rem;
-    color: #333;
+    color: rgb(192, 192, 192);
     transition: 0.2s;
   }
   .social-container a:hover {
@@ -76,4 +97,24 @@ body{
   }
   .whatsapp:hover {
     color: #f1f1f1;
+  }
+
+  @media (max-width: 900px) {
+    .cards-container{
+      width: 95%;
+    }
+    .card{
+      width: 28rem;
+    height: 33rem;
+    }
+    .sub-header{
+      width: 100vw;
+      font-size: 4rem;
+    }
+    .card h1 {
+      font-size: 3rem;
+    }
+    .card h2 {
+    }
+
   }
