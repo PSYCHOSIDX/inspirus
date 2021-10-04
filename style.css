@@ -116,7 +116,7 @@ body{
     text-align: center;
     backdrop-filter: blur( .45rem );
     font-size: 4rem;
-    font-weight: bold;
+  
     margin-top: 2rem;
 }
 .section-header hr{
@@ -353,11 +353,7 @@ padding:.2rem;
     .section-header{
         font-size: 4rem;
     }
-    .section-header hr{
-        border: 1px solid rgb(42, 241, 255);
-    }
-
-
+   
     .foot-L{
         width: 90%;
         height:110%;
