@@ -208,14 +208,14 @@ body{
 
 /*Footer Start*/
 .footer{
-    height:45%;
+    height:40%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
     padding: 2rem;
-    background-color: black;
+    background-color: grey;
 }
 
 .foot-L{
