@@ -111,18 +111,16 @@ body{
 }
 
 /*Heading */
+
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
     font-size: 4rem;
     font-weight: bold;
     margin-top: 2rem;
-    border:.02rem white solid;
 }
 .section-header hr{
     margin: auto;
-    padding: 0;
-  
 }
 
 /*End of Heading*/
