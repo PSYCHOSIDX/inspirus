@@ -111,18 +111,16 @@ body{
 }
 
 /*Heading */
+
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
-    color: rgb(255, 255, 255);
     font-size: 4rem;
-    font-weight: bold;
+    font-weight:bold;
     margin-top: 2rem;
 }
 .section-header hr{
     margin: auto;
-    padding: 0;
-  
 }
 
 /*End of Heading*/
@@ -355,13 +353,15 @@ padding:.2rem;
     .section-header{
         font-size: 4rem;
     }
-    .section-header hr{
-        border: 1px solid rgb(42, 241, 255);
+   
+    .foot-L{
+        width: 110%;
+        height:110%;
     }
 
-
-    .foot-L{
-        width: 90%;
+    .list li img{
+        width: 2rem;
+        height: 1.5rem;
     }
     .foot-r{
         width: 90%;
@@ -369,7 +369,9 @@ padding:.2rem;
 
     .map iframe{
         width: 110%;
-        margin-top: 2.5rem;
+        margin-top:6%;
+        
+        height:50%;
     }
 }
 
