@@ -363,13 +363,18 @@ padding:.2rem;
     .foot-L{
         width: 90%;
     }
+
+    .list li img{
+        width: 1rem;
+        height: .5rem;
+    }
     .foot-r{
         width: 90%;
     }
 
     .map iframe{
         width: 110%;
-        margin-top: 2.5rem;
+        margin-top: 3.5rem;
     }
 }
 
