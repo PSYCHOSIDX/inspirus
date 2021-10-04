@@ -116,7 +116,7 @@ body{
     text-align: center;
     backdrop-filter: blur( .45rem );
     font-size: 4rem;
-  
+    font-weight:bold;
     margin-top: 2rem;
 }
 .section-header hr{
