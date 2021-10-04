@@ -115,12 +115,24 @@ body{
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
+<<<<<<< Updated upstream
     font-size: 4rem;
     font-weight:bold;
+=======
+    color: rgb(45, 220, 226);
+    font-size: 7rem;
+    font-weight: bold;
+>>>>>>> Stashed changes
     margin-top: 2rem;
 }
 .section-header hr{
     margin: auto;
+<<<<<<< Updated upstream
+=======
+    width: 80%;
+    padding: 0;
+  
+>>>>>>> Stashed changes
 }
 
 /*End of Heading*/
@@ -190,7 +202,7 @@ body{
     font-size: 1.6rem;
     font-weight: 400;
     color:white;
-padding:.2rem;
+    padding:.2rem;
 }
 #particles-js{
     width: 100%;
@@ -276,6 +288,13 @@ padding:.2rem;
     background-color: slateblue;
 }
 /*End Of Footer*/
+
+.insta-icon{
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
 
 /*MOBILE VIEW */
 
