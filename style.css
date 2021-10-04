@@ -115,7 +115,7 @@ body{
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
-    color: rgb(45, 220, 226);
+    color: rgb(214, 38, 214);
     font-size: 7rem;
     font-weight: bold;
     margin-top: 2rem;
@@ -144,6 +144,10 @@ body{
     backdrop-filter: blur( .45rem );
     -webkit-backdrop-filter: blur( 0.45rem );
 
+}
+
+.event-card h1{
+    font-size: 5rem;
 }
 .event-buttons{
     display: flex;
