@@ -85,6 +85,14 @@ body{
     background: black;
 
 }
+
+
+
+
+
+
+
+
 .event{
     display: flex;
     width: 80%;
@@ -92,7 +100,7 @@ body{
     align-content: center;
     justify-content: space-around;
     flex-direction: row;
-    padding-top: 10%;
+    padding-top: 2.4rem;
     color: white;
 }
 
@@ -101,6 +109,23 @@ body{
     margin: auto;
     font-weight: bold;
 }
+
+/*Heading */
+.section-header{
+    text-align: center;
+    backdrop-filter: blur( .45rem );
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.section-header hr{
+    margin: auto;
+    padding: 0;
+  
+}
+
+/*End of Heading*/
 .event-card{
     color: white;
     display: flex;
@@ -174,53 +199,85 @@ padding:.2rem;
     height: 100%;
 }
 
+
+/*Footer Start*/
 .footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
-    padding: 3rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    background-color: rgba(216, 216, 216, 0.5);
+}
+
+.foot-L{
+    width: 40%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 3rem;
+}
+
+.foot-r{
+    width: 50%;
+
+    padding: 0;
+}
+.dbce-logo{
+
+    width: 90%;
+    height: 20%;
+    padding-bottom: 1rem;
+
 }
 .inspirus-logo{
-    width:30rem;
+    width:30%;
+    height: 10%;
 }
-.footer iframe{
+
+.footer-text-left{
+    font-size: 1.6rem;
+    padding: .8rem;
+}
+
+.foot-r iframe{
     width:50rem;
     height: 40rem;
     border-radius: 2rem;
 }
-.dbce-logo{
-    float: left;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
+
+.list
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: auto;
+    justify-content: center;
+    padding: 2rem;
+
 }
 
-.footer-text-left{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    align-content: flex-start;
-    font-weight: 200;
+.list li{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    justify-content: center;
+    padding: 1rem;
+    margin: .7rem;
+    border-radius: 5rem;
+}
+.list li img{
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 3rem;
     
-    font-size: 2rem;
 }
-.section-header{
-    z-index: 200;
-    position: relative;
-    text-align: center;
-    backdrop-filter: blur( .45rem );
-    color: rgb(36, 250, 239);
-    font-size: 6rem;
-    padding: .02rem;
-    font-weight: 600;
+
+.list li:hover{
+    background-color: slateblue;
 }
-.section-header hr{
-    margin: auto;
-    padding: 0;
-    width: 80%;
-    border: 1px solid rgb(255, 255, 255);
-}
+/*End Of Footer*/
 
 /*MOBILE VIEW */
 
@@ -300,6 +357,19 @@ padding:.2rem;
     }
     .section-header hr{
         border: 1px solid rgb(42, 241, 255);
+    }
+
+
+    .foot-L{
+        width: 90%;
+    }
+    .foot-r{
+        width: 90%;
+    }
+
+    .map iframe{
+        width: 110%;
+        margin-top: 2.5rem;
     }
 }
 
