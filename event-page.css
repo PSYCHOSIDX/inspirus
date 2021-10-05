@@ -1,36 +1,251 @@
-body{
-    margin:auto;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #01337e;
 }
-.event-page{
-    color: white;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    z-index:1;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+img {
+  z-index: 2;
+  height: 60%;
+  width: 53%;
+  backdrop-filter: blur(0.12rem);
+}
+
+/* for the main tittle */
+.tile {
+  font-size: 5rem;
+  line-height: 0.9;
+  font-weight: 900;
+  opacity: 1;
+  z-index: 3;
+  position: fixed;
+}
+/* text in circle*/
+p {
+  font-size: 3rem;
+}
+
+li {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+/* box for image*/
+.imgbox {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: -3%;
+  padding: 1%;
+}
+
+.image {
+  width: 48%;
+  height: 70%;
+  position: absolute;
+  z-index: 2;
+}
+
+/*code for the circles*/
+.right {
+  right: 0%;
+}
+
+.circle-bg,
+.quote-2,
+.quote-1 {
+  margin: auto;
+  margin-left: 100rem;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 50%;
+  height: 30rem;
+  width: 30rem;
+}
+
+.circle-bg.quote-2.rules {
+  margin: auto;
+  margin-left: 98rem;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 0%;
+  height: 80rem;
+  width: 90rem;
+}
+.circle-bg.quote-2.invisible {
+  margin: auto;
+  margin-left: 85rem;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 0%;
+  height: 80rem;
+  width: 100rem;
+  visibility: hidden;
+}
+
+.quote-1.regisss {
+  z-index: 2;
+  margin-left: 125rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.circle-bg p,
+.quote-2 p,
+.quote-1 p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rules p {
+  position: relative;
+  top: 10%;
+  transform: translateY(-50%);
+}
+.quote-1 {
+  background: rgba(51, 51, 51, 0.445);
+  color: #fff;
+  z-index: 3;
+  position: relative;
+}
+
+.quote-2 {
+  background: #3361f780;
+  margin-left: 150rem;
+  position: relative;
+}
+.quote-2 p {
+  padding: 2rem;
+}
+
+button.button1 {
+  background-color: #c92f2f;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  align-self: center;
+  border-radius: 1.2rem;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*phone section*/
+@media (max-width: 90rem) {
+  .tile {
+    font-size: 3rem;
+    margin-top: 1rem;
+    position: fixed;
+  }
+
+  body {
+    overflow-x: unset;
+  }
+
+  .imgbox {
+    position: relative;
+    margin-top: 7rem;
+    z-index: 2;
+  }
+  .image {
+    position: relative;
+    overflow-x: unset;
+    z-index: 2;
+    size: unset;
+    width: 95%;
+    height: 38%;
+  }
+
+  img {
+    width: 60%;
+    height: 80%;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 90rem) {
+  .circle-bg,
+  .quote-2,
+  .quote-1 {
+    z-index: 2;
     margin: auto;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    background-color: rgba(255, 255, 255, 0.123);
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 0.1rem solid rgba(255, 255, 255, 0.089);
-    box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
-    backdrop-filter: blur( .45rem );
-    -webkit-backdrop-filter: blur( 0.45rem );
-    font-size:1.8rem;
-    font-weight: 200;
-    color: rgb(255, 255, 255);
-}
-.event-page-subtitle{
-    color: rgb(0, 255, 255);
-    font-weight: 600;
-    font-size: 8rem;
-}
-.banner{
-    border-radius: 2rem;
-    
+    margin-right: 2rem;
+    margin-top: 2rem;
+    height: 20rem;
+    width: 20rem;
+  }
+  .circle-bg.quote-2.rules {
+    z-index: 2;
     margin: auto;
+    margin-right: 0.5rem;
+    margin-top: 0rem;
+    border-radius: 0%;
+    height: 80rem;
+    width: 39rem;
+  }
+}
+@media only screen and (max-width: 90rem) {
+  .quote-1.one {
+    z-index: 2;
+    margin-right: 19rem;
+    margin-top: 2rem;
+  }
+  .quote-1 {
+    z-index: 2;
+    margin-right: 19rem;
+    margin-top: 2rem;
+  }
+  .quote-2 {
+    z-index: 2;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .quote-1.regisss {
+    z-index: 2;
+    margin: auto;
+    margin-right: 11rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  .rules p {
+    position: relative;
+    top: 5%;
+    transform: translateY(-50%);
+  }
 }
