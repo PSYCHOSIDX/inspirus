@@ -56,7 +56,7 @@ nav ul li a:hover{
     color: rgba(43, 43, 43, 0.733);
     background-color: rgba(255, 255, 255, 0.74);
     border-radius: .3rem;
-    margin: 1rem;
+    margin: 0rem;
     
 }
 
@@ -143,10 +143,10 @@ body{
     box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
     backdrop-filter: blur( .45rem );
     -webkit-backdrop-filter: blur( 0.45rem );
-
 }
 
 .event-card h1{
+    margin: 0;
     font-size: 5rem;
 }
 .event-buttons{
@@ -219,7 +219,7 @@ body{
 }
 
 .foot-L{
-    width: 40%;
+    width: 45%;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 3rem;
@@ -231,9 +231,9 @@ body{
     padding: 0;
 }
 .dbce-logo{
-
+    z-index: 4;
     width: 90%;
-    height: 20%;
+    height: auto;
     padding-bottom: 1rem;
 
 }
@@ -319,6 +319,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
  nav ul li a{
       color: white;
       font-size:1rem;
+      padding: 0.1rem;
  }
  .menu-icon{
       display: block;
@@ -354,8 +355,10 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
         font-size: 3.5vw;
     }
  
-    h1{
-        font-size:3.7vw;
+    .event h1{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size:3rem;
     }
     .event-buttons{
         width: 55%;
@@ -407,11 +410,11 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin: auto;
 
   }
 
   .event-cardx{
-    width: 100%;
     margin: auto;
     display: flex;
     z-index:1;
@@ -430,7 +433,14 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
            
     
 }
-  
+.event-cardx h2{
+    padding-top:0;
+    margin-top: 0;
+    margin: auto;
+    padding: 2.5rem;
+    font-size: 3rem;
+
+}
   .li {
     transition: all 200ms ease-in;
   }
@@ -502,7 +512,9 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
       transition: all 200ms ease-in;
     }
 
-
+    .event-cardx h2{
+        font-size: 2rem;
+    }
 
     .event-cardx{
         width: 100%;

@@ -4,8 +4,8 @@
       color: white;
       display: flex;
       justify-content: center;
-      align-items: center;
       align-content: center;
+      align-items: center;
       text-align: center;
       font-size: 20rem;
       z-index: 3;
@@ -13,6 +13,8 @@
       flex-shrink: 0;
       height: 40rem;
       width: 40rem;
+      vertical-align: middle;
+      align-self: center;
     /* background: linear-gradient(-45deg, #283aff,#ff55d7); */
     background: linear-gradient(-45deg, #c44baf,#358fc4);
 	background-size: 400% 400%;
@@ -73,7 +75,8 @@ background-size:200% 200% ;
 /* end of blob color classes*/
 
 .event-svg{
-    width: 30rem;
+    width: 40rem;
+    height: auto;
 }
 @keyframes gradient {
 	0% {
