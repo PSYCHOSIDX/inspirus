@@ -115,12 +115,13 @@ body{
 .section-header{
     text-align: center;
     backdrop-filter: blur( .45rem );
-    color: rgb(253, 48, 253);
+    color: rgb(255, 255, 255);
     font-size: 7rem;
     font-weight: bold;
     margin-top: 2rem;
 }
 .section-header hr{
+    border: 1px solid rgb(0, 238, 255);
     margin: auto;
     width: 80%;
     padding: 0;
@@ -314,11 +315,12 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
  nav ul li{
       display: block;
       margin-top:1rem;
+      text-align: center;
       margin-bottom: .5rem;
  }
  nav ul li a{
       color: white;
-      font-size:1rem;
+      font-size:2rem;
       padding: 0.1rem;
  }
  .menu-icon{
@@ -372,6 +374,9 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     .section-header{
         font-size: 4rem;
     }
+    .section-header hr{
+        width:90%
+    }
    
     .foot-L{
         width: 110%;
@@ -401,7 +406,6 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 
 .eventx{
     padding-top: 2rem;
-    width:60%;
     margin: auto;
   color: white;
 }
@@ -411,16 +415,19 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     display: flex;
     align-items: center;
     margin: auto;
+    margin-top: 2rem;
 
   }
 
   .event-cardx{
+    
+    width: 75%;
     margin: auto;
     display: flex;
     z-index:1;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 5rem;
+    padding: 3rem;
     border-radius: 1rem;
 
     background-color: rgba(255, 255, 255, 0.123);
@@ -438,7 +445,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     margin-top: 0;
     margin: auto;
     padding: 2.5rem;
-    font-size: 3rem;
+    font-size: 4rem;
 
 }
   .li {
@@ -451,7 +458,10 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bold;
+  }
+  .date{
+      font-size: 2rem;
+      color: white;
   }
   
   .status {
@@ -463,6 +473,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     transition: all 200ms ease-in;
   }
   .status h4 {
+      font-size: 2rem;
     font-weight: bold;
   }
   .status:before {
@@ -471,7 +482,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     height: 2.5rem;
     background-color: rgb(17, 0, 116);
     border-radius: 2.5rem;
-    border: .01rem solid #ddd;
+    /* border: .01rem solid #ddd; */
     position: absolute;
     top: -1.5rem;
     left: 42%;
@@ -482,8 +493,12 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     border-top: .2rem solid #ffffff;
   }
   .li.complete .status:before {
-    background-color:#9F27A8;
-    border: .005rem white solid;
+    background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-color:#9F27A8; */
+    /* border: .005rem white solid; */
     transition: all 200ms ease-in;
   }
   .li.complete .status h4 {
@@ -493,41 +508,59 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   
   @media (min-device-width: 260px) and (max-device-width: 883px) {
 
+    .eventx{
+        width: 95%;
+    }
+    .event-cardx{
+        width: 95%;
+        display: flex;
+        z-index:1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 1rem;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        padding: 0rem;
+
+       
+    }
+    .timestamp{
+        padding: 0rem 0rem;
+        margin-right: 3rem;
+    }
+    
     .timeline {
       list-style-type: none;
       display: block;
-      margin-left: -6rem;
+    
     }
   
     .li {
+        width: 100%;
       transition: all 200ms ease-in;
       display: flex;
-      width: inherit;
+      
     }
-  
+    .date{
+        bottom:10%;
+        font-size: 1.5rem;
+    }
     
     .status:before {
+      padding: 0rem 0rem;
       left: -8%;
-      top: 30%;
+      top: 36%;
       transition: all 200ms ease-in;
     }
 
     .event-cardx h2{
         font-size: 2rem;
     }
-
-    .event-cardx{
-        width: 100%;
-        display: flex;
-        z-index:1;
-        flex-direction: row;
-        border-radius: 1rem;
-        transform: translateX(-5rem);
-   
-        color: rgb(255, 255, 255);
-
-       
+    .event-cardx h4{
+        font-size: 1.5rem;
     }
+
+    
   }
   
 /*end of timeline*/
