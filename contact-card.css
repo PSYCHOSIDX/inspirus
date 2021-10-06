@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     width: 25rem;
+    min-height: 30rem;
     margin: 2rem;
     background-color: #fff;
     /* background: linear-gradient(#0f358894, rgba(68, 202, 212, 0.623)); */
@@ -45,11 +46,12 @@
   .sub-header hr{
     margin-top: 0;
     margin-bottom: 0;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 238, 255);
     width: 95%;
   }
   .card img {
     width: 60%;
+    height: auto;
     border: solid 8px #eaeaea;
     background: white;
     border-radius: 50%;
@@ -68,19 +70,25 @@
     font-weight: 300;
   }
   .whatsapp{
-      width: 50%;
-      background-color: chartreuse;
+      width: 20rem;
+      height: auto;
+      border-radius: 1rem;
+      text-align: center;
+      background-color: #25d366;
   }
   .social-container {
     display: flex;
     justify-content: center;
   }
   .social-container a {
-    margin: 0 0.5rem;
-    font-size: 2rem;
-    color: rgb(192, 192, 192);
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 1rem;
+    color: rgb(214, 214, 214);
     transition: 0.2s;
   }
+
+  
   .social-container a:hover {
     color: #000;
   }
@@ -91,7 +99,9 @@
     color: #0e76a8;
   }
   .whatsapp:hover {
-    color: #f1f1f1;
+    color: #25d366;
+    background-color: black;
+    transition: 0.2s;
   }
 
   @media (max-width: 900px) {

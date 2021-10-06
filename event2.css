@@ -1,0 +1,152 @@
+.main{
+    margin:auto;
+    margin-bottom:10rem;
+   
+
+}
+.main-para{
+    position: relative;
+    margin:auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.event-title{
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.gradient-text{
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rules{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 0.1rem solid rgba(255, 255, 255, 0.089);
+    box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+    backdrop-filter: blur( .45rem );
+    -webkit-backdrop-filter: blur( 0.45rem );
+    align-content: flex-start;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    max-width: 70%;
+    height: 77rem;
+}
+.sub-title{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.right{
+    margin-top: 4.5rem;
+}
+.event-details{
+    height: 32rem;
+    color: rgb(255, 255, 255);
+    width: 25rem;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 0.1rem solid rgba(255, 255, 255, 0.089);
+    box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+    backdrop-filter: blur( .45rem );
+    -webkit-backdrop-filter: blur( 0.45rem );
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.event-details-header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.event-details-section{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.illustration{
+      z-index: 3;
+      flex-shrink: 0;
+      height: 40rem;
+      width: 40rem;
+      vertical-align: middle;
+      align-self: center;
+    width: 100%;
+    z-index: 5;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+.card{
+    width: 27rem;
+    margin:0;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 0.1rem solid rgba(255, 255, 255, 0.089);
+    box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+    backdrop-filter: blur( .45rem );
+    -webkit-backdrop-filter: blur( 0.45rem );
+    color: white;
+}
+.blob_pink,.blob_grey,.blob_yellow,.blob_grey,.blob_red{
+    animation: gradient 5s ease infinite;
+
+}
+.register-button{
+    margin-top: 2rem;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    width:23rem;
+    height: auto;
+    background-size: 400% 400%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+@media (max-width: 900px) {
+    .event-title{
+        font-size: 6rem;
+        
+    }
+    .illustration{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .main-para{
+        width: 100%;
+    }
+    .register-button{
+        margin: auto;
+        width:80%;
+        margin-top: 3rem;
+    }
+    .rules{
+        padding: 1rem;
+    }
+    .rules,.event-details,.card{
+        margin: auto;
+        max-width: 85%;
+        height: auto;
+    }
+    .event-details{
+        padding: 1rem;
+        width: 90%;
+    }
+    .card{
+        width:100%;
+        margin-top:3rem;
+    }
+}

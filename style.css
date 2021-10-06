@@ -249,6 +249,8 @@ body{
 }
 
 .foot-r iframe{
+    align-self: baseline;
+    justify-self: space-around;
     width:50rem;
     height: 40rem;
     border-radius: 2rem;
