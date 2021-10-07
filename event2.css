@@ -24,7 +24,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-li {
+.rules li {
   margin-left: 2rem;
 }
 .rules {
@@ -85,7 +85,6 @@ li {
 }
 .illustration {
   z-index: 3;
-  flex-shrink: 0;
   height: 40rem;
   width: 40rem;
   vertical-align: middle;
@@ -130,13 +129,12 @@ li {
   .event-title {
     font-size: 6rem;
   }
-  .illustration {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0;
+  .main{
+    margin-bottom: 2rem;
   }
   .main-para {
     width: 100%;
+    
   }
   .register-button {
     margin: auto;
@@ -153,12 +151,29 @@ li {
     max-width: 85%;
     height: auto;
   }
+  .rules{
+      margin-bottom: 0;
+  }
   .event-details {
+      margin: 0 0 0 0;
+      margin: auto;
     padding: 1rem;
     width: 90%;
   }
   .card {
-    width: 100%;
+    width:42rem;
     margin-top: 3rem;
   }
+  .illustration {
+    margin:auto;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    height: auto;
+    width: 70%;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+  
+  
+}
 }
