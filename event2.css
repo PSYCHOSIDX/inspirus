@@ -108,7 +108,7 @@
 .blob_grey,
 .blob_yellow,
 .blob_grey,
-.blob_red {
+.blob_red,.blob_green {
   animation: gradient 5s ease infinite;
 }
 .register-button {
