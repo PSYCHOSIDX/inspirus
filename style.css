@@ -90,14 +90,33 @@ body{
 .main-title{
     
     position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
     text-align: center;
      font-weight: 700;
      font-size: 10rem;
-    -webkit-background-clip: text;
+     color: rgb(60, 217, 223);
+     background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+     background-size: 400% 400%;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: gradient 5s ease infinite; 
 
 }
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 
@@ -123,7 +142,7 @@ body{
 
 .section-header{
     text-align: center;
-    backdrop-filter: blur( .45rem );
+    backdrop-filter: blur( 0rem );
     color: rgb(255, 255, 255);
     font-size: 7rem;
     font-weight: bold;
@@ -137,15 +156,26 @@ body{
   
 }
 .about-card{
+    
     color: white;
     width: 80%;
+    border-radius: 0.5rem;
+    margin: auto;
+    font-size: 2rem;
+    padding:2rem;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 3rem;
     border-radius: 1rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.089);
     box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
     backdrop-filter: blur( .45rem );
     -webkit-backdrop-filter: blur( 0.45rem );
+    margin-top: 0.7rem;
 }
-
+.about-card b{
+    font-weight: 600;
+}
 /*End of Heading*/
 .event-card{
     color: white;
@@ -202,6 +232,18 @@ body{
     /* box-shadow:  2px -2px 7px #1f93d7,
                  -2px 2px 7px #10419b;
      */
+}
+.download-button{
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: #228aec;
+    width:100%;
 }
 .page-link:hover{
     background: linear-gradient(45deg, #e6e6e6, #ffffff);
@@ -317,6 +359,9 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 /*MOBILE VIEW */
 
 @media (max-width: 900px) {
+    .main-title {
+        font-size: 6rem;
+      }
     .logo{width: 11rem;}
     .menu-icon{width: rem;}
       nav ul{
@@ -391,6 +436,10 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
         padding: 1rem;
         font-size: 3vw;
     }
+    .download-button{
+        padding: 1rem;
+        font-size: 3vw;
+    }
     .section-header{
         font-size: 4rem;
     }
@@ -449,7 +498,9 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
     flex-wrap: wrap;
     padding: 3rem;
     border-radius: 1rem;
-
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.123);
     box-shadow: 0 .8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
     backdrop-filter: blur( .45rem );
@@ -541,8 +592,15 @@ background: linear-gradient(to left, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Fi
         align-items: center;
         color: rgb(255, 255, 255);
         padding: 0rem;
+        height: auto;
+        padding-bottom: 2rem;
 
        
+    }
+    .download-button{
+        margin: auto;
+        padding: 1rem;
+        font-size: 3vw;
     }
     .timestamp{
         padding: 0rem 0rem;

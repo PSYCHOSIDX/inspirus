@@ -1,15 +1,23 @@
 
   
   .type-animation {
+      position: relative;
     display: inline-flex;
     width: 0;
     overflow: hidden;
-    padding-right: 0.1em;
-    position: relative;
-  }
+    color: white;
+    background:linear-gradient(white,black);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+    
+}
+
+
   .type-animation:after {
+
     content: "";
-    background: #f7f3ff;
     position: absolute;
     right: 0;
     top: -0.05em;
