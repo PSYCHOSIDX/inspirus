@@ -372,7 +372,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
            position: absolute;
            border-bottom: .1rem solid rgba(255, 255, 255, 0.05);
            
-           top: 4rem;
+           top: 6rem;
            right :0;
            z-index: 2;    
        }
