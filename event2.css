@@ -5,11 +5,13 @@
 .main-para {
   position: relative;
   margin: auto;
-  width: 95%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: space-evenly;
+  padding-left: 0;
+  width: 90%;
 }
 
 .event-title {
@@ -35,19 +37,14 @@
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
-  align-content: flex-start;
   border-radius: 2rem;
-
   padding: 2rem;
   position: relative;
-  margin: auto;
-  overflow: none;
-
   margin-top: 4rem;
-  max-width: 70%;
-
-  height: 77rem;
+  max-width: 60%;
+  height: 88rem;
 }
+
 .sub-title {
   font-size: 5rem;
   text-align: center;
@@ -57,7 +54,7 @@
   margin-top: 4.5rem;
 }
 .event-details {
-  height: 32rem;
+  height: 23rem;
   color: rgb(255, 255, 255);
   width: 25rem;
   background-color: rgba(255, 255, 255, 0.123);
@@ -65,13 +62,15 @@
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 2rem;
   margin: auto;
   margin-bottom: 2rem;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
-
+.prizes{
+    height: 16rem;
+}
 .event-details-header {
   text-align: center;
   font-weight: 600;
@@ -80,7 +79,7 @@
 
 .event-details-section {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding-bottom: 2rem;
 }
 .illustration {
@@ -173,7 +172,9 @@
     width: 70%;
     margin-left: 6rem;
     margin-bottom: 3rem;
-  
-  
-}
+  }
+  .prizes{
+      margin-top: 3rem;
+      height: auto;
+  }
 }
