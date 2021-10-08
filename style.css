@@ -387,6 +387,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
       color: white;
       font-size:2rem;
       padding: 0.1rem;
+      margin-right:-1rem;
  }
  .menu-icon{
       display: block;
