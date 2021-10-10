@@ -37,11 +37,10 @@
   position: relative;
   margin-top: 4rem;
   max-width: 60%;
-
 }
 
-.top{
-  height: 23%;
+.top {
+  height: 18%;
   font-size: 1.6rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
@@ -53,8 +52,8 @@
   padding: 2rem;
 }
 
-.bottom{
-  height: 77%;
+.bottom {
+  height: 74.3%;
   font-size: 1.7rem;
   margin-top: 1rem;
   padding-top: 1rem;
@@ -72,7 +71,7 @@
   font-weight: 600;
 }
 .right {
-  margin-top: 4.5rem;
+  margin-top: 6.2rem;
 }
 .event-details {
   height: 23rem;
