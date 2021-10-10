@@ -32,6 +32,32 @@
 .rules {
   color: rgb(255, 255, 255);
   font-size: 1.7rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  position: relative;
+  margin-top: 4rem;
+  max-width: 60%;
+
+}
+
+.top{
+  height: 23%;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.123);
+  border: 0.1rem solid rgba(255, 255, 255, 0.089);
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+  backdrop-filter: blur(0.45rem);
+  -webkit-backdrop-filter: blur(0.45rem);
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.bottom{
+  height: 77%;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
@@ -39,12 +65,7 @@
   -webkit-backdrop-filter: blur(0.45rem);
   border-radius: 2rem;
   padding: 2rem;
-  position: relative;
-  margin-top: 4rem;
-  max-width: 60%;
-  height: 91.5rem;
 }
-
 .sub-title {
   font-size: 5rem;
   text-align: center;
