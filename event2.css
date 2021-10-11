@@ -64,6 +64,7 @@
   -webkit-backdrop-filter: blur(0.45rem);
   border-radius: 2rem;
   padding: 2rem;
+  margin-bottom :2rem;
 }
 .sub-title {
   font-size: 5rem;
