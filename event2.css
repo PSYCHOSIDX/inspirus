@@ -40,7 +40,7 @@
 }
 
 .top {
-  height: 20%;
+  height: 27%;
   font-size: 1.6rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
@@ -53,9 +53,9 @@
 }
 
 .bottom {
-  height: 72.3%;
+  height: 72%;
   font-size: 1.7rem;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
   padding-top: 1rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
@@ -141,7 +141,7 @@
   width: 28.5rem;
   height: auto;
   background-size: 400% 400%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 
