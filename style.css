@@ -423,7 +423,10 @@ body {
   .event-text {
     font-size: 3.5vw;
   }
-
+  .about-card{
+      font-size: 1.8rem;
+      width: 75%;
+  }
   .event h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;

@@ -86,11 +86,12 @@
   padding: 1.2rem;
   border-radius: 2rem;
   margin: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   font-size: 1.6rem;
 }
 .prizes {
   height: 16rem;
+
 }
 .event-details-header {
   text-align: center;
@@ -123,6 +124,7 @@
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
   color: white;
+  margin-bottom: 6rem;
 }
 .blob_pink,
 .blob_grey,
@@ -131,6 +133,7 @@
 .blob_red,
 .blob_green {
   animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
 }
 .register-button {
   position: relative;
