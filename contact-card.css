@@ -78,14 +78,14 @@
   }
 
 
-  .linkedin{
+  .linkedinx{
     width: 20rem;
     height: auto;
     border-radius: 1rem;
     text-align: center;
     background-color: #003bdd;
 }
-.linkedin:hover{
+.linkedinx:hover{
   background-color: rgb(53, 53, 53);
 }
   .social-container {
