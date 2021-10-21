@@ -13,7 +13,7 @@ html {
   display: flex;
   align-items: center;
 }
-
+#x{ display: none;}
 .logo {
   width: 20rem;
   padding: 1rem;
@@ -103,7 +103,7 @@ body {
 
 .sponsor-title {
   position: relative;
-  margin-top: .9rem;
+  margin-top: 1.4rem;
   text-align: center;
   font-weight: 700;
   font-size: 4rem;
@@ -209,9 +209,9 @@ body {
 /* Sponsors */
 .sponsors{
   color: white;
-  width: 80%;
+  width: 84%;
   display: flex;
-
+  margin-bottom: 7rem;
   border-radius: 0.5rem;
   margin: auto;
   font-size: 2rem;
@@ -226,16 +226,37 @@ body {
 }
 
 .sponsor-logo{
-  
   align-content: center;
   text-align: center;
   justify-self: center;
   border-radius: 2rem;
   overflow: hidden;
-  width: 90%;
+  width: 100%;
 }
 .sponsor-logo img{
-  margin-top: 3rem;
+  margin: .5rem;
+}
+
+
+/* all Sponsors */
+.sponsorsa{
+  color: white;
+  width: 87%;
+  display:flex;
+  margin-bottom: 7rem;
+  margin: auto;
+ 
+}
+
+.sponsora-logo{
+ 
+  justify-self: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 100%;
+}
+.sponsora-logo img{
+  margin: .5rem;
 }
 .event-card h1 {
   margin: 0;
@@ -471,6 +492,7 @@ body {
   }
   .sponsors{
     flex-direction: column;
+    margin-bottom: 5rem;
   }
   .sponsor-logo{
     margin: .5rem;
@@ -707,6 +729,7 @@ body {
 
   .sponsors{
     flex-direction: column;
+    margin-bottom: 5rem;
   }
   .sponsor-logo{
     margin: .5rem;
@@ -715,6 +738,23 @@ body {
     margin-top:.8rem ;
     width: 90%;
     margin-left: 1.8rem;
+  }
+ /*all*/
+  .sponsorsa{
+    
+    margin-bottom: 5rem;
+    width:90%;
+  }
+  .sponsora-logo{
+    width: 90%;
+  }
+  #x{
+    display: block;
+  }
+  .sponsora-logo img{
+    margin-top:.8rem ;
+    width: 40%;
+    
   }
 }
 
