@@ -40,7 +40,6 @@
 }
 
 .top {
-  height: 27%;
   font-size: 1.6rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
@@ -150,8 +149,14 @@
   .event-title {
     font-size: 6rem;
   }
+  .sub-title{
+    font-size: 4rem;
+  }
   .main {
     margin-bottom: 2rem;
+  }
+  .right{
+    margin-top: 0;
   }
   .main-para {
     width: 100%;
@@ -161,18 +166,22 @@
     width: 80%;
     margin-top: 3rem;
   }
-  .rules {
-    padding: 1rem;
+  .bottom {
+    font-size: 1.35rem;
+  }
+  .top{
+    font-size: 1.4rem;
   }
   .rules,
   .event-details,
   .card {
     margin: auto;
-    max-width: 85%;
+    max-width: 95%;
     height: auto;
   }
   .rules {
     margin-bottom: 0;
+    padding: 0.1rem;
   }
   .event-details {
     margin: 0 0 0 0;

@@ -180,7 +180,45 @@ body {
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
 }
+/* Sponsors */
+.sponsors{
+  color: white;
+  width: 80%;
+  border-radius: 0.5rem;
+  margin: auto;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0.123);
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.089);
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+  backdrop-filter: blur(0.45rem);
+  -webkit-backdrop-filter: blur(0.45rem);
+  margin-top: 0.7rem;
+}
 
+.sponsor-logo{
+  width: 20rem;
+  height: 10rem;
+  align-content: center;
+  text-align: center;
+  justify-self: center;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.sponsor-logo img{
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  position: relative;
+
+
+}
 .event-card h1 {
   margin: 0;
   font-size: 5rem;
