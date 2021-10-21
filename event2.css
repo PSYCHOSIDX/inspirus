@@ -52,7 +52,7 @@
 }
 
 .bottom {
-  height: 72%;
+  height: 40%;
   font-size: 1.7rem;
   margin-top: 1.6rem;
   padding-top: 1rem;
@@ -168,6 +168,7 @@
   }
   .bottom {
     font-size: 1.35rem;
+    height: 70%;
   }
   .top{
     font-size: 1.4rem;
