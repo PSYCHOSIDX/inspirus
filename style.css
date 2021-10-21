@@ -268,20 +268,19 @@ body {
 .sponsorax-logo{
  
   justify-self: center;
-  border-radius: 2rem;
+ 
   overflow: hidden;
   width: 100%;
 }
 .sponsora-logo{
  
   justify-self: center;
-  border-radius: 2rem;
   overflow: hidden;
   width: 100%;
 }
 
 .sponsora-logo img{
-  margin: .5rem;
+  margin: .2rem;
 }
 .event-card h1 {
   margin: 0;
@@ -602,8 +601,15 @@ body {
   .sponsorsa{
     margin-top: 0rem;
     flex-direction: column;
-    margin-bottom: 2rem;
-    padding: 2rem;
+    margin-bottom: 0.2rem;
+    align-items: center;
+    width: 95%;
+  }
+
+  .sponsora-logo img{
+    margin: auto;
+    align-items: center;
+    width:90%;
   }
 }
 
@@ -787,15 +793,12 @@ body {
   }
  /*all*/
   .sponsorsa{
-    
+    margin: auto;
     margin-bottom: 5rem;
     width:90%;
   }
   .sponsora-logo{
     width: 67%;
-  }
-  #x{
-    display: block;
   }
   .sponsora-logo img{
     margin-top:.8rem ;
