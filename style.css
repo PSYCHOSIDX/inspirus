@@ -742,7 +742,6 @@ body {
  /*all*/
   .sponsorsa{
     
-    margin-bottom: 5rem;
     width:90%;
   }
   .sponsora-logo{
@@ -752,8 +751,8 @@ body {
     display: block;
   }
   .sponsora-logo img{
-    margin-top:.8rem ;
-    width: 40%;
+    
+    width:25%;
     
   }
 }
