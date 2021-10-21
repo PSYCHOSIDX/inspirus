@@ -756,17 +756,17 @@ body {
   .sponsorsa{
     
     margin-bottom: 5rem;
-    width:90%;
+    width:100%;
   }
   .sponsora-logo{
-    width: 90%;
+    width: 100%;
   }
   #x{
     display: block;
   }
   .sponsora-logo img{
     margin-top:.8rem ;
-    width: 40%;
+    width: 47%;
     
   }
 }
