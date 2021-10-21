@@ -469,6 +469,17 @@ body {
     flex-wrap: wrap;
     width: 90%;
   }
+  .sponsors{
+    flex-direction: column;
+  }
+  .sponsor-logo{
+    margin: .5rem;
+  }
+  .sponsor-logo img{
+    margin-top:.8rem ;
+    width: 90%;
+    margin-left: 1.8rem;
+  }
   .event-card {
     margin-left: 0rem;
     padding-left: 0rem;
