@@ -99,6 +99,32 @@ body {
   -webkit-text-fill-color: transparent;
   animation: gradient 5s ease infinite;
 }
+
+
+.sponsor-title {
+  position: relative;
+  margin-top: .9rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 4rem;
+  color: rgb(60, 136, 223);
+  background: #a200ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0060de,
+    #b700ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #007ade,
+    #e100ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -184,40 +210,32 @@ body {
 .sponsors{
   color: white;
   width: 80%;
+  display: flex;
+
   border-radius: 0.5rem;
   margin: auto;
   font-size: 2rem;
-  padding: 2rem;
+  
   font-weight: 300;
-  background-color: rgba(255, 255, 255, 0.123);
-  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.034);
   border-radius: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
-  box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.24);
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
-  margin-top: 0.7rem;
 }
 
 .sponsor-logo{
-  width: 20rem;
-  height: 10rem;
+  
   align-content: center;
   text-align: center;
   justify-self: center;
   border-radius: 2rem;
   overflow: hidden;
+  width: 90%;
 }
 .sponsor-logo img{
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin: auto;
-  position: relative;
-
-
+  margin-top: 3rem;
 }
 .event-card h1 {
   margin: 0;
@@ -674,6 +692,18 @@ body {
   }
   .event-cardx h4 {
     font-size: 1.5rem;
+  }
+
+  .sponsors{
+    flex-direction: column;
+  }
+  .sponsor-logo{
+    margin: .5rem;
+  }
+  .sponsor-logo img{
+    margin-top:.8rem ;
+    width: 90%;
+    margin-left: 1.8rem;
   }
 }
 
