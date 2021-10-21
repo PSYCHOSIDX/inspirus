@@ -108,16 +108,16 @@ body {
   font-weight: 700;
   font-size: 4rem;
   color: rgb(60, 136, 223);
-  background: #a200ff; /* fallback for old browsers */
+  background: #ccd9e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #0060de,
-    #b700ff
+    #d0e1f7
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #007ade,
-    #e100ff
+    #d5dce6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-size: 400% 400%;
@@ -215,7 +215,7 @@ body {
   border-radius: 0.5rem;
   margin: auto;
   font-size: 2rem;
-  
+ 
   font-weight: 300;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 1rem;
