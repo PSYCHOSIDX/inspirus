@@ -253,7 +253,25 @@ body {
   margin: auto;
  
 }
-
+.sponsorsax{
+  flex-direction: row;
+  color: white;
+  width: 50%;
+  display:flex;
+  margin-bottom: 7rem;
+  margin: auto;
+ 
+}
+.sponsorax-logo img{
+  margin: .5rem;
+}
+.sponsorax-logo{
+ 
+  justify-self: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 100%;
+}
 .sponsora-logo{
  
   justify-self: center;
@@ -261,6 +279,7 @@ body {
   overflow: hidden;
   width: 100%;
 }
+
 .sponsora-logo img{
   margin: .5rem;
 }
@@ -499,10 +518,22 @@ body {
   .sponsors{
     flex-direction: column;
     margin-bottom: 5rem;
+    padding: 2rem;
   }
   .sponsor-logo{
     margin: .5rem;
   }
+  sponsorax{
+    width: 100%;
+  }
+
+  .sponsorax-logo{
+    margin-top: .5rem;
+  }
+  .sponsorax-logo img{
+    width: 95%;
+  }
+
   .sponsor-logo img{
     margin-top:.8rem ;
     width: 90%;
@@ -741,25 +772,27 @@ body {
   }
 
   .sponsors{
+    width: 70%;
     flex-direction: column;
     margin-bottom: 5rem;
+    border-radius: 0%;
   }
   .sponsor-logo{
     margin: .5rem;
   }
   .sponsor-logo img{
     margin-top:.8rem ;
-    width: 90%;
-    margin-left: 1.8rem;
+    margin: auto;
+    width: 70%;
   }
  /*all*/
   .sponsorsa{
     
     margin-bottom: 5rem;
-    width:100%;
+    width:90%;
   }
   .sponsora-logo{
-    width: 100%;
+    width: 67%;
   }
   #x{
     display: block;
