@@ -239,9 +239,15 @@ body {
 
 
 /* all Sponsors */
+
+.all{
+  display: flex;
+
+}
 .sponsorsa{
+  flex-direction: row;
   color: white;
-  width: 87%;
+  width: 50%;
   display:flex;
   margin-bottom: 7rem;
   margin: auto;
@@ -561,6 +567,13 @@ body {
 
     height: 50%;
   }
+
+  .sponsorsa{
+    margin-top: 0rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
 }
 
 /*Time line*/
@@ -742,6 +755,7 @@ body {
  /*all*/
   .sponsorsa{
     
+    margin-bottom: 5rem;
     width:90%;
   }
   .sponsora-logo{
@@ -751,8 +765,8 @@ body {
     display: block;
   }
   .sponsora-logo img{
-    
-    width:25%;
+    margin-top:.8rem ;
+    width: 40%;
     
   }
 }
