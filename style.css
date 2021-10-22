@@ -13,7 +13,7 @@ html {
   display: flex;
   align-items: center;
 }
-#x{ display: none;}
+
 .logo {
   width: 20rem;
   padding: 1rem;
@@ -236,7 +236,28 @@ body {
 .sponsor-logo img{
   margin: .5rem;
 }
+.silicon{
+  width: 70%; height: 60%;margin: auto; align-items: center;
+}
+.silicon img{
+  margin-left: 17rem;
+}
 
+
+.siliconx{
+  width: 70%; height: 60%;margin: auto; align-items: center;
+}
+.siliconx img{
+  margin-left: 8rem;
+}
+
+
+.silicons{
+  width: 40%; height: 60%;margin: auto; align-items: center;
+}
+.silicons img{
+  margin-left: 13rem;
+}
 
 /* all Sponsors */
 
@@ -337,7 +358,9 @@ body {
 
   font-weight: bold;
 }
-
+.mm{
+  margin-left:36% ;
+}
 .event-text {
   font-size: 1.6rem;
   font-weight: 400;
@@ -458,6 +481,17 @@ body {
 /*MOBILE VIEW */
 
 @media (max-width: 900px) {
+
+
+  .silicon{
+    width: 50%; height: 30%;margin: auto; align-items: center;
+  }
+  .silicon img{
+    margin-left: 1rem;
+  }
+  #xyz{
+    margin-top: 2.3rem;
+  }
   .main-title {
     font-size: 4.5rem;
   }
@@ -521,7 +555,9 @@ body {
   }
   .sponsor-logo{
     margin: .5rem;
+    margin:auto ;
   }
+  
   sponsorax{
     width: 100%;
   }
@@ -536,7 +572,6 @@ body {
   .sponsor-logo img{
     margin-top:.8rem ;
     width: 90%;
-    margin-left: 1.8rem;
   }
   .event-card {
     margin-left: 0rem;
@@ -609,7 +644,42 @@ body {
   .sponsora-logo img{
     margin: auto;
     align-items: center;
-    width:90%;
+    width:96%;
+  }
+
+
+  .silicon{
+    margin-left:-3rem ;
+    width: 100%;
+    margin: auto;
+  }
+
+  .silicon img{
+    margin-left:0% ;
+    width: 100%;
+  }
+
+  .siliconx{
+    margin-left:-3rem ;
+    width: 100%;
+    margin: auto;
+  }
+
+  .silicons img{
+    margin-left:0% ;
+    width: 100%;
+  }
+
+  
+  .silicons{
+    margin-left:-3rem ;
+    width: 100%;
+    margin: auto;
+  }
+
+  .siliconx img{
+    margin-left:0% ;
+    width: 100%;
   }
 }
 
