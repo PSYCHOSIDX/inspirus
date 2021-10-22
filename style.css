@@ -635,7 +635,7 @@ body {
 
   .sponsorsa{
     margin-top: 0rem;
-    flex-direction: column;
+    
     margin-bottom: 0.2rem;
     align-items: center;
     width: 95%;
@@ -849,7 +849,7 @@ body {
 
   .sponsors{
     width: 70%;
-    flex-direction: column;
+   
     margin-bottom: 5rem;
     border-radius: 0%;
   }

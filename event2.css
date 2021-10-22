@@ -104,17 +104,12 @@
   padding-bottom: 2rem;
 }
 .illustration {
-  z-index: 3;
-  height: 30rem;
-  width: 30rem;
   vertical-align: middle;
   align-self: center;
-  width: 60%;
   z-index: 5;
-  margin-top: 2rem;
-  border-radius: 2rem;
-  margin-left: 23rem;
- 
+  align-items: center;
+  margin: auto;
+width:30%;
 }
 
 .card {
@@ -152,7 +147,8 @@
 
 @media (max-width: 920px) {
   .event-title {
-    font-size: 6rem;
+    font-size: 5rem;
+    padding-top: 1.4rem;
   }
   .sub-title{
     font-size: 4rem;
@@ -204,10 +200,8 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    height: auto;
     width: 60%;
-    margin-left: 7rem;
-  
+   
   }
   .prizes {
     margin-top: 3rem;
