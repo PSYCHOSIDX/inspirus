@@ -41,7 +41,6 @@
 
 .top {
   font-size: 1.6rem;
-
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
@@ -53,8 +52,8 @@
 }
 
 .bottom {
-  height: 70%;
   font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-top: 1.6rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.123);
@@ -105,15 +104,13 @@
 }
 .illustration {
   z-index: 3;
-  height: 30rem;
-  width: 30rem;
+  width: 45%;
   vertical-align: middle;
   align-self: center;
-  width: 60%;
   z-index: 5;
   margin-top: 2rem;
   border-radius: 2rem;
-  margin-left: 23rem;
+  margin-left: 28%;
  
 }
 
