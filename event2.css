@@ -63,16 +63,13 @@
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
   border-radius: 2rem;
-  margin-bottom: 0%;
-  margin-bottom: 2rem;
+  margin-bottom:0% ;
+  margin-bottom :2rem;
 }
 .sub-title {
   font-size: 5rem;
   text-align: center;
   font-weight: 600;
-}
-.left {
-  margin-top: 6.2rem;
 }
 .right {
   margin-top: 6.2rem;
@@ -110,15 +107,9 @@
   vertical-align: middle;
   align-self: center;
   z-index: 5;
-<<<<<<< Updated upstream
   align-items: center;
   margin: auto;
 width:30%;
-=======
-  margin-top: 2rem;
-  border-radius: 2rem;
-  margin-left: 23rem;
->>>>>>> Stashed changes
 }
 
 .card {
@@ -156,16 +147,16 @@ width:30%;
 
 @media (max-width: 920px) {
   .event-title {
-    font-size: 5rem;
-    padding-top: 1.4rem;
+    font-size: 3.8rem;
+    padding-top: 1.7rem;
   }
-  .sub-title {
+  .sub-title{
     font-size: 4rem;
   }
   .main {
     margin-bottom: 2rem;
   }
-  .right {
+  .right{
     margin-top: 0;
   }
   .main-para {
@@ -180,7 +171,7 @@ width:30%;
     font-size: 1.35rem;
     height: 70%;
   }
-  .top {
+  .top{
     font-size: 1.4rem;
   }
   .rules,
@@ -205,18 +196,17 @@ width:30%;
     margin-top: 3rem;
   }
   .illustration {
+    
     align-self: center;
     justify-self: center;
     text-align: center;
     width: 60%;
-<<<<<<< Updated upstream
    
-=======
-    margin-left: 7rem;
->>>>>>> Stashed changes
   }
   .prizes {
     margin-top: 3rem;
     height: auto;
   }
+
+ 
 }
