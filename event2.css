@@ -41,7 +41,6 @@
 
 .top {
   font-size: 1.6rem;
-
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
@@ -53,8 +52,8 @@
 }
 
 .bottom {
-  height: 70%;
   font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-top: 1.6rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.123);
@@ -63,8 +62,8 @@
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
   border-radius: 2rem;
-  margin-bottom: 0%;
-  margin-bottom: 2rem;
+  margin-bottom:0% ;
+  margin-bottom :2rem;
 }
 .sub-title {
   font-size: 5rem;
@@ -72,9 +71,6 @@
   font-weight: 600;
 }
 .right {
-  margin-top: 6.2rem;
-}
-.left {
   margin-top: 6.2rem;
 }
 .event-details {
@@ -107,12 +103,15 @@
   padding-bottom: 2rem;
 }
 .illustration {
+  z-index: 3;
+  width: 45%;
   vertical-align: middle;
   align-self: center;
   z-index: 5;
-  align-items: center;
-  margin: auto;
-  width: 30%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  margin-left: 28%;
+ 
 }
 
 .card {
@@ -150,16 +149,15 @@
 
 @media (max-width: 920px) {
   .event-title {
-    font-size: 3.8rem;
-    padding-top: 1.7rem;
+    font-size: 6rem;
   }
-  .sub-title {
+  .sub-title{
     font-size: 4rem;
   }
   .main {
     margin-bottom: 2rem;
   }
-  .right {
+  .right{
     margin-top: 0;
   }
   .main-para {
@@ -174,7 +172,7 @@
     font-size: 1.35rem;
     height: 70%;
   }
-  .top {
+  .top{
     font-size: 1.4rem;
   }
   .rules,
@@ -199,13 +197,19 @@
     margin-top: 3rem;
   }
   .illustration {
+    
     align-self: center;
     justify-self: center;
     text-align: center;
+    height: auto;
     width: 60%;
+    margin-left: 7rem;
+  
   }
   .prizes {
     margin-top: 3rem;
     height: auto;
   }
+
+ 
 }
