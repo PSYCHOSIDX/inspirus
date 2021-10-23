@@ -572,6 +572,7 @@ body {
     width: 90%;
   }
   .helper-container{
+    margin-top: -1rem;
     width: 95%;
     margin-bottom: 0;
   }
