@@ -109,7 +109,7 @@ body {
   margin-top: 0rem;
   text-align: center;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 2rem;
   border-radius: 1rem;
   color: rgb(255, 255, 255);;
   padding: 1rem;
@@ -253,7 +253,7 @@ body {
 
 }
 .helper-logo img{
-  height: 15rem;
+  height: 10rem;
   width: auto;
 }
 .silicon{
@@ -586,7 +586,7 @@ body {
     align-items: center;
   }
   .helper-title{
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
   }
 
@@ -594,7 +594,7 @@ body {
     flex-wrap: nowrap;
     padding: 0;
     margin:auto ;
-    max-width: 17rem;
+    max-width: 15rem;
   }
   .helper-logo img{
     height: auto;
