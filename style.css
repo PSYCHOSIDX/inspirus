@@ -834,6 +834,10 @@ body {
   color: #ffffff;
   padding: 1rem;
 }
+.mediap{
+  text-align: center; 
+  width: 100%;
+}
 
 @media (min-device-width: 260px) and (max-device-width: 883px) {
   .eventx {
@@ -911,6 +915,10 @@ body {
     margin-top:.8rem ;
     width: 47%;
     
+  }
+  .mediap{
+    text-align: center; 
+    width: 200%;
   }
 }
 
