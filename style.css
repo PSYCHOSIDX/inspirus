@@ -160,7 +160,9 @@ body {
 }
 
 /*Heading */
-
+.foot-r .section-header{
+  font-size: 3rem;
+}
 .section-header {
   text-align: center;
   backdrop-filter: blur(0rem);
