@@ -40,30 +40,29 @@
 }
 
 .top {
-  height: 27%;
   font-size: 1.6rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   border-radius: 2rem;
   padding: 2rem;
 }
 
 .bottom {
-  height: 72%;
+  font-size: 1.4rem;
   font-size: 1.7rem;
   margin-top: 1.6rem;
-  padding-top: 1rem;
+  padding: 1rem;
   background-color: rgba(255, 255, 255, 0.123);
   border: 0.1rem solid rgba(255, 255, 255, 0.089);
   box-shadow: 0 0.8rem 3.2rem 0 rgba(36, 36, 36, 0.74);
   backdrop-filter: blur(0.45rem);
   -webkit-backdrop-filter: blur(0.45rem);
   border-radius: 2rem;
-  padding: 2rem;
+  margin-bottom:0% ;
   margin-bottom :2rem;
 }
 .sub-title {
@@ -105,15 +104,16 @@
 }
 .illustration {
   z-index: 3;
-  height: 40rem;
-  width: 40rem;
+  width: 45%;
   vertical-align: middle;
   align-self: center;
-  width: 100%;
   z-index: 5;
   margin-top: 2rem;
   border-radius: 2rem;
+  margin-left: 28%;
+ 
 }
+
 .card {
   width: 32.5rem;
   margin: 0;
@@ -124,6 +124,7 @@
   -webkit-backdrop-filter: blur(0.45rem);
   color: white;
 }
+
 .blob_pink,
 .blob_grey,
 .blob_yellow,
@@ -146,12 +147,18 @@
   font-weight: 300;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .event-title {
     font-size: 6rem;
   }
+  .sub-title{
+    font-size: 4rem;
+  }
   .main {
     margin-bottom: 2rem;
+  }
+  .right{
+    margin-top: 0;
   }
   .main-para {
     width: 100%;
@@ -161,18 +168,23 @@
     width: 80%;
     margin-top: 3rem;
   }
-  .rules {
-    padding: 1rem;
+  .bottom {
+    font-size: 1.35rem;
+    height: 70%;
+  }
+  .top{
+    font-size: 1.4rem;
   }
   .rules,
   .event-details,
   .card {
     margin: auto;
-    max-width: 85%;
+    max-width: 95%;
     height: auto;
   }
   .rules {
     margin-bottom: 0;
+    padding: 0.1rem;
   }
   .event-details {
     margin: 0 0 0 0;
@@ -185,17 +197,19 @@
     margin-top: 3rem;
   }
   .illustration {
-    margin: auto;
+    
     align-self: center;
     justify-self: center;
     text-align: center;
     height: auto;
-    width: 70%;
-    margin-left: 6rem;
-    margin-bottom: 3rem;
+    width: 67%;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
   }
   .prizes {
     margin-top: 3rem;
     height: auto;
   }
+
+ 
 }
