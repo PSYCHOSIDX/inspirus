@@ -1,5 +1,7 @@
 # INSPIRUS 2K21
 
+![Untitled design (7)](https://user-images.githubusercontent.com/63893110/139539815-34ca78f7-d0f7-4a77-b7a7-503480281828.png)
+
 
 Event Website for INSPIRUS 2K21 a technical event held by Don Bosco College Of Engineering Fatorda - Goa in association with C-Codes committee of Computer Engineering Department .
 
